@@ -1,18 +1,12 @@
-# mock-ecommerce-site
-A fictional online store built for demonstration and portfolio purposes. Showcases a simple, clean design and product catalog featuring made-up tech gadgets like Zexa One and Telo Air. This project is not a real business but a practice example for web development skills.
+# React + Vite
 
-## Developer Statement of Purpose
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This project is a fictional e-commerce site, **Wally's Widgets**, created as a demonstration of modern web development skills and best practices.
+Currently, two official plugins are available:
 
-The site is built using **React** and **Vite** to leverage a fast, modular, and scalable frontend architecture. Hosting is planned on **Vercel** for seamless deployment and efficient serverless performance.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-My goal is to develop a feature-complete and user-friendly mock store that simulates real-world e-commerce functionality — including product browsing, filtering, and cart management — while maintaining a clean and maintainable codebase.
+## Expanding the ESLint configuration
 
-I am focusing on scalability and extensibility to ensure the project can easily accommodate new features and future enhancements. This includes modular component design, effective state management, and clear project organization.
-
-This repo serves as a portfolio piece and learning exercise, showcasing my ability to build modern web applications using current tools and workflows.
-
----
-
-*Tech Stack:* React, Vite, JavaScript, CSS Modules / Styled Components, Vercel hosting.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
