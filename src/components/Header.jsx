@@ -1,10 +1,13 @@
 import { useState } from "react";
+import Nav from "./Nav";
+import styles from "./Header.module.css";
 
 function Header(){
     return (
-        <>
+        <header>
             <h1>Wally's Widgets</h1>
-        </>
+            <Nav />
+        </header>
     )
 }
 
