@@ -1,0 +1,72 @@
+[
+    {
+        "id": "zexa-one",
+        "name": "Zexa One",
+        "description": "Smart speaker with voice control and immersive 360° sound. Compatible with major voice assistants.",
+        "dimensions": "7.5\" x 3.5\" x 3.5\" (19 cm x 9 cm x 9 cm)",
+        "weight": "1.2 lbs (0.54 kg)",
+        "price": 129.99,
+        "featured": true,
+        "image": ""
+    },
+    {
+        "id": "telo-air",
+        "name": "Telo Air",
+        "description": "Compact air purifier with HEPA filter and whisper-quiet operation, perfect for bedrooms and offices.",
+        "dimensions": "9\" x 5\" x 5\" (23 cm x 13 cm x 13 cm)",
+        "weight": "2.3 lbs (1.04 kg)",
+        "price": 149.99,
+        "featured": true,
+        "image": ""
+    },
+    {
+        "id": "nexa-pulse",
+        "name": "Nexa Pulse",
+        "description": "Wireless earbuds featuring active noise cancellation, ergonomic fit, and up to 10 hours of battery life.",
+        "dimensions": "Earbud size: 0.9\" x 0.7\" x 0.8\" (2.3 cm x 1.8 cm x 2 cm) \nCharging case: 2.5\" x 1.5\" x 1\" (6.4 cm x 3.8 cm x 2.5 cm)",
+        "weight": "Earbuds: 0.1 oz each (3 g) | Case: 1.8 oz (50 g)",
+        "price": 99.99,
+        "featured": true,
+        "image": ""
+    },
+    {
+        "id": "viro-link",
+        "name": "Viro Link",
+        "description": "Smart home hub that connects all your devices seamlessly with voice and app control, supporting over 1000 smart products.",
+        "dimensions": "5\" x 5\" x 1.2\" (12.7 cm x 12.7 cm x 3 cm)",
+        "weight": "0.8 lbs (0.36 kg)",
+        "price": 179.99,
+        "featured": true,
+        "image": ""
+    },
+    {
+        "id": "lumo-beam",
+        "name": "Lumo Beam",
+        "description": "Smart LED light strip with customizable colors, schedules, and music sync via app control. Waterproof and easy to install.",
+        "dimensions": "16.4 ft (5 m) length, 0.4\" (1 cm) width",
+        "weight": "0.5 lbs (0.23 kg)",
+        "price": 59.99,
+        "featured": false,
+        "image": ""
+    },
+    {
+        "id": "kora-watch",
+        "name": "Kora Watch",
+        "description": "Fitness tracker with heart rate monitoring, sleep analysis, step counter, and smartphone notifications.",
+        "dimensions": "Watch face: 1.6\" x 1.6\" x 0.4\" (4 cm x 4 cm x 1 cm) \nStrap length: Adjustable 6\" x 8\" (15 cm x 20 cm)",
+        "weight": "1.1 oz (31 g)",
+        "price": 129.99,
+        "featured": false,
+        "image": ""
+    },
+    {
+        "id": "mira-dock",
+        "name": "Mira Dock",
+        "description": "Multi-device wireless charging station capable of charging a phone, earbuds, and smartwatch simultaneously with fast charge support.",
+        "dimensions": "8\" x 4.5\" x 1\" (20.3 cm x 11.4 cm x 2.5 cm)",
+        "weight": "1.5 lbs (0.68 kg)",
+        "price": 89.99,
+        "featured": false,
+        "image": ""
+    }
+]

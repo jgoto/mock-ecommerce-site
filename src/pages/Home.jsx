@@ -1,5 +1,12 @@
+import Banner from '../components/Banner'
+import FeaturedProducts from '../components/FeaturedProducts'
+
 export default function Home(){
     return (
-        <h2>Welcome to Wally's Widgets</h2>
+        <>
+            <Banner />
+            <h2>Featured Widgets</h2>
+            <FeaturedProducts />
+        </>
     )
 }
