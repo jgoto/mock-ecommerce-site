@@ -1,0 +1,11 @@
+.socialsList{
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+    border: 1px solid red;
+}
+
+.socialIcon {
+    width: 24px;
+    height: 24px;
+}
