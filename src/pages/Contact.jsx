@@ -1,3 +1,5 @@
+import Newsletter from '../components/Newsletter';
+
 export default function Contact(){
     return (
         <>
@@ -7,6 +9,7 @@ export default function Contact(){
                 <li>Phone: 1-800-555-FAKE (1-800-555-3253)</li>
                 <li>Address: 1234 Widget Lane, Techville, AZ 85201, USA </li>
             </ul>
+            <Newsletter />
         </>
         
         
