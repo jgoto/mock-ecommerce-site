@@ -6,7 +6,9 @@ import FeaturedProductsTile from "./FeaturedProductTile";
 
 function FeaturedProducts(){
     return(
-        <>
+        <div className={styles.featuredContent}>
+            <h2>Featured</h2>
+            <div className={styles.featuredGrid}>
             {
                 products.map((product)=>{
                     if(product.featured===true){
@@ -14,7 +16,8 @@ function FeaturedProducts(){
                     }
                 })
             }
-        </>
+            </div>            
+        </div>
     )
 }
 

@@ -1,0 +1,19 @@
+.banner button{
+    background-color: #006699;
+    font-weight: bold;
+    margin: 1.5vh auto;
+    padding: 0.5rem 4rem;
+    font-size: 1.75rem;
+    color: #fffff0;
+}
+
+.banner h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6rem;
+    margin-bottom: 1.5vh;
+}
+
+.banner h2{
+    font-size: 2rem;
+    margin: 1.5vh auto;
+}

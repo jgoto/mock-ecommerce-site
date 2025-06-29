@@ -1,8 +1,43 @@
 img{
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
 }
 
 .tile{
+    width: 300px;
+    height: 300px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #fffff9;
+    border: 0.25rem solid #cccccd;
+    border-radius: 12px;
+}
+
+.tile h2,h3,h4,image{
+    border: 1px solid green;
+    padding: 0.25rem;
+    margin: 0.10rem;
+}
+
+.featuredContent{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.featuredContent h2{
+    font-size: 2rem;
+    margin-right: auto;
+    padding-left: 2rem;
+}
+
+.featuredGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
 }

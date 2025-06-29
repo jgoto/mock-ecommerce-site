@@ -5,8 +5,10 @@ import styles from "./FeaturedProducts.module.css";
 function FeaturedProductsTile({product}){
     return(
         <div className={styles.tile}>
-            <h3>{product.name}</h3>
-            <h4>${product.price}</h4>
+            <div>
+                <h3>{product.name}</h3>
+                <h4>${product.price}</h4>
+            </div>            
             <Link to={"/store#" + product.id}><img src={product.image} alt={product.name}/></Link>
         </div>
     );
