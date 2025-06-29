@@ -1,5 +1,5 @@
 header{
-    border: 1px solid red;
+    border-bottom: 0.25rem solid #f0f4f8;
     display: flex;
     justify-content: center;
     align-items: center;
