@@ -7,7 +7,7 @@
         "weight": "1.2 lbs (0.54 kg)",
         "price": 129.99,
         "featured": true,
-        "image": ""
+        "image": "src/assets/images/gear.png"
     },
     {
         "id": "telo-air",
@@ -17,7 +17,7 @@
         "weight": "2.3 lbs (1.04 kg)",
         "price": 149.99,
         "featured": true,
-        "image": ""
+        "image": "src/assets/images/gear.png"
     },
     {
         "id": "nexa-pulse",
@@ -27,7 +27,7 @@
         "weight": "Earbuds: 0.1 oz each (3 g) | Case: 1.8 oz (50 g)",
         "price": 99.99,
         "featured": true,
-        "image": ""
+        "image": "src/assets/images/gear.png"
     },
     {
         "id": "viro-link",
@@ -37,7 +37,7 @@
         "weight": "0.8 lbs (0.36 kg)",
         "price": 179.99,
         "featured": true,
-        "image": ""
+        "image": "src/assets/images/gear.png"
     },
     {
         "id": "lumo-beam",
@@ -47,7 +47,7 @@
         "weight": "0.5 lbs (0.23 kg)",
         "price": 59.99,
         "featured": false,
-        "image": ""
+        "image": "src/assets/images/gear.png"
     },
     {
         "id": "kora-watch",
@@ -57,7 +57,7 @@
         "weight": "1.1 oz (31 g)",
         "price": 129.99,
         "featured": false,
-        "image": ""
+        "image": "src/assets/images/gear.png"
     },
     {
         "id": "mira-dock",
@@ -67,6 +67,6 @@
         "weight": "1.5 lbs (0.68 kg)",
         "price": 89.99,
         "featured": false,
-        "image": ""
+        "image": "src/assets/images/gear.png"
     }
 ]
