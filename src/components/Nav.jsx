@@ -1,15 +1,23 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from './Nav.module.css'
 
 function Nav(){
     return (
         <nav>
             <ul className={styles.navList}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/store">Store</Link></li>
+                <li><NavLink to="/" end className={
+                    ({isActive}) => isActive ? `${styles.link} ${styles.active}` : styles.link
+                }>Home</NavLink></li>
+                <li><NavLink to="/about" end className={
+                    ({isActive}) => isActive ? `${styles.link} ${styles.active}` : styles.link
+                } >About</NavLink></li>
+                <li><NavLink to="/contact" end className={
+                    ({isActive}) => isActive ? `${styles.link} ${styles.active}` : styles.link
+                } >Contact</NavLink></li>
+                <li><NavLink to="/store" end className={
+                    ({isActive}) => isActive ? `${styles.link} ${styles.active}` : styles.link
+                } >Store</NavLink></li>
             </ul>
         </nav>
     )

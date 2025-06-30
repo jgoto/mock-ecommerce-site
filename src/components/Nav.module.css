@@ -3,3 +3,12 @@
     display: flex;
     gap: 2vw;
 }
+
+.link {
+    text-decoration: none;
+}
+
+.active{
+    font-weight: bold;
+    color: 535bf2;
+}
