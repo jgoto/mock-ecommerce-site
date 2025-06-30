@@ -2,7 +2,6 @@
     display: flex;
     list-style: none;
     gap: 2vw;
-    border: 1px solid red;
 }
 
 .socialIcon {

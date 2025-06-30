@@ -1,6 +1,7 @@
 img{
     width: 120px;
     height: 120px;
+    box-sizing: border-box;
 }
 
 .tile{
@@ -17,7 +18,6 @@ img{
 }
 
 .tile h2,h3,h4,image{
-    border: 1px solid green;
     padding: 0.25rem;
     margin: 0.10rem;
 }

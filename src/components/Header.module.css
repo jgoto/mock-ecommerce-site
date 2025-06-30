@@ -1,10 +1,12 @@
-header{
+.headerContent{
     border-bottom: 0.25rem solid #f0f4f8;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 2rem 6rem;
     align-items: center;
+    font-size: 1.25rem;
 }
 
 h1{
-    font-size: 2em;
+    font-size: 2rem;
 }

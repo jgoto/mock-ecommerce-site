@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 
 function Header(){
     return (
-        <header>
+        <header className={styles.headerContent}>
             <h1>Wally's Widgets</h1>
             <Nav />
         </header>

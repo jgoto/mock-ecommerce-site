@@ -16,6 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <main>
+        <div className="pageContainer">
         <Header />
         <Routes>
           <Route path ="/" element = {<Home />} />
@@ -25,6 +26,8 @@ function App() {
           <Route path ="*" element = {<NotFound />} />
         </Routes>
         <Footer />
+        </div>
+        
       </main>
     </BrowserRouter>
   )
