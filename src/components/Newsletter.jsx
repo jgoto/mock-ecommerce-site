@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import styles from './Newsletter.module.css'
 
 function Newsletter(){
     const handleSubmit = (e) => {
@@ -7,7 +8,7 @@ function Newsletter(){
         console.log("Subscribed", email)
     }
     return (
-        <>
+        <div className={styles.newsletterSignup}>
             <h2>Subscribe to our Newsletter</h2>
             <h3>Sign up to receive updates and special offers.</h3>
             <form id="newsletter_form" onSubmit={handleSubmit}>
@@ -15,7 +16,7 @@ function Newsletter(){
                 <button type ="sumbit" id="newsletter_submit_btn">Subscribe</button>
             </form>
             
-        </>
+        </div>
     )
 }
 

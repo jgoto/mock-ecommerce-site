@@ -30,3 +30,8 @@ main{
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.5);
 }
+
+button{
+  background-color: #006699;
+  color: #fffff0;
+}

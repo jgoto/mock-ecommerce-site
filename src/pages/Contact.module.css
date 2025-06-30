@@ -1,0 +1,8 @@
+.contactSection{
+    margin: 0 auto;
+    padding: 0.25rem auto;
+}
+
+.contactSection li{
+    list-style-type: none;
+}
