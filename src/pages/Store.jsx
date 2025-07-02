@@ -2,7 +2,7 @@ import ProductList from "../components/ProductList";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
-export default function Store(){
+export default function Store({openStoreModal}){
     const location = useLocation();
 
     useEffect(()=>{
@@ -18,7 +18,7 @@ export default function Store(){
     return (
         <>
             <h2>Wally's Widgets Store</h2>
-            <ProductList />
+            <ProductList openStoreModal={openStoreModal} />
         </>        
     )
 }

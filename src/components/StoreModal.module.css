@@ -1,0 +1,21 @@
+.storeRedirectOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.storeRedirectContent{
+    width: 60vw;
+    max-width: 700px;
+    max-height: 60vh;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+}

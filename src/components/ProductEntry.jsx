@@ -1,7 +1,11 @@
 import { useState } from "react";
 import styles from './ProductEntry.module.css'
 
-function ProductEntry({product}){
+function ProductEntry({product, openStoreModal}){
+    const handleClick = (storeUrl) =>{
+        openStoreModal({storeUrl});
+    }
+
     return (
         <div id={product.id} className={styles.productContainer}>
             <img src={product.image} alt={product.name} />
@@ -14,6 +18,7 @@ function ProductEntry({product}){
                     <li>${product.price}</li>
                 </ul>    
             </div>
+            <button onClick={handleClick}>Buy Now!</button>
         </div>
     )
 }

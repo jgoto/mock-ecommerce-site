@@ -2,11 +2,11 @@ import { useState } from "react";
 import ProductEntry from './ProductEntry';
 import products from "../data/products.json";
 
-function ProductList(){
+function ProductList({openStoreModal}){
     return (
         <>
             {
-                products.map((product)=><ProductEntry key={product.id} product={product} /> )
+                products.map((product)=><ProductEntry openStoreModal={openStoreModal} key={product.id} product={product} /> )
             }
         </>
     )
