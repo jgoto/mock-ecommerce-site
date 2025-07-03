@@ -42,7 +42,6 @@ function App() {
         {(isStoreModalOpen) && <StoreModal 
           isOpen={isStoreModalOpen}
           onClose={closeStoreModal} 
-          countdown={storeModalCountdown}
           storeTarget={storeTarget} />}
         </div>
       </main>
