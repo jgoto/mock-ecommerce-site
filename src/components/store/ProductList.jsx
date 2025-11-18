@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ProductEntry from './ProductEntry';
-import products from "../data/products.json";
+import products from "../../data/products.json";
 
 function ProductList({openStoreModal}){
     return (

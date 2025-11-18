@@ -1,4 +1,4 @@
-import Newsletter from '../components/Newsletter';
+import Newsletter from '../components/home/Newsletter';
 import styles from './Contact.module.css';
 
 export default function Contact(){

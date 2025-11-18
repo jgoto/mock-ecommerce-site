@@ -1,4 +1,4 @@
-import ProductList from "../components/ProductList";
+import ProductList from "../components/store/ProductList";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 

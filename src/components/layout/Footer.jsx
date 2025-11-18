@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Socials from "./Socials"
+import Socials from "../external/Socials"
 import styles from "./Footer.module.css";
 
 function Footer(){

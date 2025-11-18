@@ -1,6 +1,6 @@
 import { useState } from "react";
-import products from "../data/products.json";
-import ProductEntry from "./ProductEntry";
+import products from "../../data/products.json";
+import ProductEntry from "../store/ProductEntry";
 import styles from "./FeaturedProducts.module.css";
 import FeaturedProductsTile from "./FeaturedProductTile";
 
