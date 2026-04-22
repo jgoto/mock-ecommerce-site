@@ -13,6 +13,26 @@ This project also explores **lead generation workflows**, including contact capt
 
 ---
 
+## Screenshots
+
+![Home page screenshot](./home-screenshot.png)
+
+### Home page
+
+![About page screenshot](./about-screenshot.png)
+
+### About us page
+
+![Contact page screenshot](./contact-screenshot.png)
+
+### Contact us page
+
+![Store page screenshot](./store-screenshot.png)
+
+### Store page
+
+---
+
 ## Planned Features
 
 - End-to-end testing with **Playwright**
