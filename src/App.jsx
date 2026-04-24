@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from './components/layout/Header'
+import Footer from './components/layout/Footer'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Store from './pages/Store'
-import StoreModal from './components/StoreModal'
+import StoreModal from './components/store/StoreModal'
 
 function App() {
   const [isStoreModalOpen, setIsStoreModalOpen] = useState(false);

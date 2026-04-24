@@ -1,5 +1,5 @@
-import Banner from '../components/Banner'
-import FeaturedProducts from '../components/FeaturedProducts'
+import Banner from '../components/layout/Banner'
+import FeaturedProducts from '../components/home/FeaturedProducts'
 import styles from './Home.module.css';
 
 export default function Home(){

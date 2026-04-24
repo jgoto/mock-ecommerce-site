@@ -1,12 +1,56 @@
-# React + Vite
+# Mock E-Commerce Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fictional e-commerce catalog built with **React**, designed to showcase products and act as a bridge to dedicated storefronts like Amazon or Shopify.  
 
-Currently, two official plugins are available:
+This project also explores **lead generation workflows**, including contact capture and (planned) newsletter subscriptions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React-based frontend
+- Product catalog UI
+
+---
+
+## Screenshots
+
+![Home page screenshot](./home-screenshot.png)
+
+### Home page
+
+![About page screenshot](./about-screenshot.png)
+
+### About us page
+
+![Contact page screenshot](./contact-screenshot.png)
+
+### Contact us page
+
+![Store page screenshot](./store-screenshot.png)
+
+### Store page
+
+---
+
+## Planned Features
+
+- End-to-end testing with **Playwright**
+- Component testing with **Vitest** and **React Testing Library**
+- Newsletter subscription system
+- Lead generation via contact form
+---
+
+## Live Demo
+
+Check out the deployed app here:  
+https://mock-ecommerce-site-gamma.vercel.app/
+
+---
+
+## Notes
+
+This project is intended as a **portfolio piece** and a sandbox for experimenting with:
+- Frontend architecture
+- Testing strategies
+- User acquisition patterns
